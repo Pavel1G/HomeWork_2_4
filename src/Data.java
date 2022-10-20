@@ -2,9 +2,6 @@ public class Data {
 
     private static final String VALID_CHARS = "abcdefghiklmnoprstuvwxyzABCDEFGHIKLMNOPRSTUVWXYZ0123456789_";
 
-    Data() {
-    }
-
     public static boolean validateAuthorization(String login,
                                                 String password,
                                                 String confirmPassword) {
